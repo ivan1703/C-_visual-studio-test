@@ -21,6 +21,7 @@ namespace urok_24
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("new stroka");
             Animal dog = new Animal(breat.cat);
             dog.print();
             Console.ReadKey();
